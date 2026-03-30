@@ -1,23 +1,157 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <title>مدرسة النجاح - الصفحة الرئيسية</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body { font-family: 'Arial', sans-serif; }
+        .hero { background: linear-gradient(to right, #007bff, #0056b3); color: white; padding: 100px 0; }
+        .section { padding: 60px 0; }
+    </style>
 </head>
 <body>
-<nav>
-    <ul>
-        <li>test</li>
-        <li>test</li>
-        <li>test</li>
-        <li>test</li>
-        <li>test</li>
-        <li>test</li>
-        <li>test</li>
-        <li>test</li>
-        
-</nav>    
-    
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">مدرسة النجاح</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">الرئيسية</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">عن المدرسة</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="programs.html">البرامج</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="news.html">الأخبار</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">الاتصال</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero text-center">
+        <div class="container">
+            <h1 class="display-4">مرحباً بكم في مدرسة النجاح</h1>
+            <p class="lead">نحن ملتزمون بتقديم تعليم عالي الجودة لطلابنا</p>
+            <a href="about.html" class="btn btn-light btn-lg">تعرف علينا</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>عن مدرستنا</h2>
+                    <p>مدرسة النجاح هي مؤسسة تعليمية رائدة تقدم برامج تعليمية شاملة للطلاب من جميع المراحل. نحن نركز على تطوير المهارات الأكاديمية والشخصية لطلابنا.</p>
+                    <a href="about.html" class="btn btn-primary">اقرأ المزيد</a>
+                </div>
+                <div class="col-md-6">
+                    <img src="https://via.placeholder.com/500x300" class="img-fluid" alt="مدرسة النجاح">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs Section -->
+    <section class="section">
+        <div class="container">
+            <h2 class="text-center mb-5">برامجنا التعليمية</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="المرحلة الابتدائية">
+                        <div class="card-body">
+                            <h5 class="card-title">المرحلة الابتدائية</h5>
+                            <p class="card-text">برنامج شامل للأطفال من 6 إلى 12 عاماً.</p>
+                            <a href="programs.html" class="btn btn-primary">تفاصيل</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="المرحلة المتوسطة">
+                        <div class="card-body">
+                            <h5 class="card-title">المرحلة المتوسطة</h5>
+                            <p class="card-text">تطوير المهارات الأساسية والإعداد للمرحلة الثانوية.</p>
+                            <a href="programs.html" class="btn btn-primary">تفاصيل</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="المرحلة الثانوية">
+                        <div class="card-body">
+                            <h5 class="card-title">المرحلة الثانوية</h5>
+                            <p class="card-text">إعداد الطلاب للجامعة والحياة المهنية.</p>
+                            <a href="programs.html" class="btn btn-primary">تفاصيل</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- News Section -->
+    <section class="section bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">آخر الأخبار</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="خبر 1">
+                        <div class="card-body">
+                            <h5 class="card-title">افتتاح المختبر الجديد</h5>
+                            <p class="card-text">تم افتتاح مختبر العلوم الجديد في المدرسة.</p>
+                            <a href="news.html" class="btn btn-primary">اقرأ المزيد</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="خبر 2">
+                        <div class="card-body">
+                            <h5 class="card-title">جوائز الطلاب المتميزين</h5>
+                            <p class="card-text">تم تكريم الطلاب المتميزين في الحفل السنوي.</p>
+                            <a href="news.html" class="btn btn-primary">اقرأ المزيد</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="خبر 3">
+                        <div class="card-body">
+                            <h5 class="card-title">رحلة تعليمية</h5>
+                            <p class="card-text">الطلاب يشاركون في رحلة تعليمية إلى المتحف.</p>
+                            <a href="news.html" class="btn btn-primary">اقرأ المزيد</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <p>&copy; 2026 مدرسة النجاح. جميع الحقوق محفوظة.</p>
+            <p>العنوان: شارع المدرسة، المدينة | الهاتف: 123-456-7890 | البريد الإلكتروني: info@school.com</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
